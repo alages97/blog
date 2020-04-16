@@ -27,7 +27,7 @@ const Blogposts = (props) => {
                 key={item.title}
                 extra={
                 <img
-                    width={272}
+                    width={100}
                     alt="logo"
                     src={item.image}
                 />
@@ -37,7 +37,6 @@ const Blogposts = (props) => {
                 title={<a href={`/${item.id}`}>{item.title}</a>}
                 description={item.description}
                 />
-                {item.content}
             </List.Item>
             )}
         />
